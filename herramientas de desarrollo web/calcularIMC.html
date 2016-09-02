@@ -27,9 +27,23 @@
 	</nav>
 	<br>
 	<label>Peso: </label>
-	<input name="peso" type="text" id="peso" />
+	<input name="peso" type="text" id="peso" title="debe ingresar su peso ejemplo: 72 Kgs." required autofocus />
+	<label><span>Kgs</span></label>
+	<br>
 	<label>Estatura: </label>
-	<input name="estatura" type="text" id="estatura" />
+	<input name="estatura" type="text" id="estatura" title="Su estatura debe ingresarla en metros ejemplo: 1.85 m." required focus />
+	<label>Metros (M).</label>
+	<br>
+	<label>Tu edad es: </label>
+	<input name="edad" type="text" id="edad" title="La edad se requiere para calcular su indice de grasa" required focus />
+	<label>años.</label>
+	<br>
+	<label>Elige tu sexo:</label>
+	<select id="sexo" name="sexo">
+   		<option value="0">Mujer</option>
+ 		<option value="1">Hombre</option>
+	</select>
+	<br>
 	<input name="Calcular" type="button" onclick="imcXestatura()" value="Calcular" />
 </body>
 </html>
