@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="estilos.css">
+<script src="javascripts.js"></script>
+	<title>Sumar dos numero por pantalla</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li>
+				<a href="index.html">Inicio</a>
+			</li>
+			<li>
+				<a href="sumar2n.html">Calculadora</a>
+			</li>
+			<li>
+				<a href="progra.html">Palabra par/impar</a>
+			</li>
+			<li>
+				<a href="calcularIMC.html">Calculadora IMC</a>
+			</li>
+		</ul>
+	</nav>
+	<br>
+<center>
+<form name='f1' action="ejercicio1.html" method=POST>
+<table>
+	<tr>
+		<td>
+			<label name="num1">Numero 1:</label>
+		</td>
+		<td>
+			<input id="f-in"type="text" name='num1' focus/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label name="num2">Numero 2:</label>
+		</td>
+		<td>
+			<input id="f-in" type="text" name='num2'/>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input type="button" value="   +   " onclick="fsuma()">
+			<input type="button" value="   *   " onclick="fmultiplica()">
+			<input type="button" value="   /   " onclick="fdivide()">
+			<input type="button" value="   -  " onclick="fresta()">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input id="f-in" type="text" name='resul'/>
+		</td>
+	</tr>
+</table>
+</form>
+</center>
+
+</body>
+</html>

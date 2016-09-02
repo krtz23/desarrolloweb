@@ -1,0 +1,67 @@
+/*Formateo principal*/
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+/*estilos de menu*/
+body{
+	max-width: 100%;
+}
+nav{
+	max-width: 100%;
+	padding-top: 0.5em;
+	text-align: center;
+
+}
+nav ul li a{
+	border:.2em solid black;
+	border-radius: .4em 0 .4em 0;
+	color:#f65;
+	list-style: none;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 2em;
+}
+nav ul li a:hover{
+	border:.2em dashed orange;
+	border-radius: 0 .4em 0 .4em ;
+	color:#000;
+	list-style: none;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 2em;
+}
+nav li{
+	display: inline-block;
+	max-width: 100%;
+}
+form{
+	padding-top: 3em;
+}
+img{
+	border-radius:.3em ;
+	box-shadow: .3em .3em .3em #888888;
+	max-width: 100%;
+}
+.img-t{
+	width: 600px;
+}
+#img-display{
+	padding-top: 3em;
+}
+table{
+	border:0.3em dashed red;
+}
+#f-in{
+	background: pink;
+}
+#f-in:hover{
+	background: black;
+	color:white;
+}
+@media screen and (max-width: 800px){
+	.img-t{
+		width:300px;
+	}
+}
