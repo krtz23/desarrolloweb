@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The push method appends a new element to an array.</p>
+
+<button onclick="myFunction()">Try it</button>
+<button onclick="myFunction12()">mostrar</button>
+
+<input type="text" id="r1">
+<p id="demo" style=" visibility: hidden;"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+
+function myFunction() {
+    var r1=document.getElementById("r1").value;
+    fruits.push(r1);
+    document.getElementById("demo").innerHTML = fruits;
+
+}
+function myFunction12() {
+document.getElementById("demo").style. visibility="";
+}
+</script>
+
+</body>
+</html>
